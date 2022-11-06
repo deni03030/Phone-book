@@ -1,0 +1,94 @@
+.full-screen-overlay {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-card {
+  background-color: rgb(21, 32, 43);
+  height: 300px;
+  width: 600px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.modal-content button {
+  height: 36px;
+  width: 78px;
+}
+
+.modal-button-panel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+  color: whitesmoke;
+  box-shadow: none;
+  border: none;
+  overflow: auto;
+  outline: none;
+  font-size: 17px;
+}
+
+.close-icon {
+  color: white;
+  margin: -12px -24px;
+  position: relative;
+  right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.counter {
+  color: rgb(245, 245, 245, 0.7);
+  margin-right: 15px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.unknown-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.avatar-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 11px;
+  margin-top: -7px;
+  margin-left: -7px;
+}
